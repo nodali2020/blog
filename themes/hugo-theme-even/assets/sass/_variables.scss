@@ -78,18 +78,19 @@ $global-headings: (
 // Padding of the site header.
 $header-padding: 20px 20px !default;
 
-// Font family: Chancery
+/* merriweather-regular - latin */
 @font-face {
-  font-family: 'Chancery';
-  src: url('../fonts/chancery/apple-chancery-webfont.eot');
-  src: local('Apple Chancery'), url('../fonts/chancery/apple-chancery-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/chancery/apple-chancery-webfont.woff2') format('woff2'),
-  url('../fonts/chancery/apple-chancery-webfont.woff') format('woff'),
-  url('../fonts/chancery/apple-chancery-webfont.ttf') format('truetype'),
-  url('../fonts/chancery/apple-chancery-webfont.svg#apple-chancery') format('svg');
-  font-weight: lighter;
+  font-family: 'Merriweather';
   font-style: normal;
+  font-weight: 400;
   font-display: swap;
+  src: url('../fonts/merriweather/merriweather-v22-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/merriweather/merriweather-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/merriweather/merriweather-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/merriweather/merriweather-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/merriweather/merriweather-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/merriweather/merriweather-v22-latin-regular.svg#Merriweather') format('svg'); /* Legacy iOS */
 }
 
 // Font size of the logo.
