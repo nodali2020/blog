@@ -21,7 +21,7 @@ googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # essential                     # 必需
-  name = "olOwOlo"
+  name = "Nodali Ndraha"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -33,16 +33,21 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   weight = 10
   identifier = "home"
   url = "/"
+[[menu.main]]             # config your menu              # 配置目录
+  name = "About"
+  weight = 10
+  identifier = "about"
+  url = "/about/"
+[[menu.main]]             # config your menu              # 配置目录
+  name = "Publication"
+  weight = 10
+  identifier = "publication"
+  url = "/publication/"
 [[menu.main]]
   name = "Archives"
   weight = 20
   identifier = "archives"
   url = "/post/"
-[[menu.main]]
-  name = "Tags"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
 [[menu.main]]
   name = "Categories"
   weight = 40
