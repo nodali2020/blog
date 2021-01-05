@@ -1,5 +1,5 @@
 +++
-author = "Theme author"
+author = "Admin"
 categories = ["Hugo"]
 tags = ["tutorial"]
 date = "2014-09-28"
