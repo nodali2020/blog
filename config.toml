@@ -1,6 +1,6 @@
-baseurl = "/"
+baseurl = "https://nodalindraha.me/"
 languageCode = "en-us"
-title = "Hugo Future Imperfect"
+title = "Nodali Ndraha"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
